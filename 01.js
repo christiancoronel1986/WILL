@@ -10,9 +10,10 @@ function soloNumeros(array) {
   // Ej: 
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
 
-  // Tu código aca:
-
+  // Tu código aca:function soloNumeros(array) {
+  return array.filter(elemento => typeof elemento === 'number');
 }
+
 
 // No modifiques nada debajo de esta linea //
 
